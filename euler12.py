@@ -18,3 +18,6 @@ for i in range(10000,10_000_000):
 
 
 print(f'time taken : {time.perf_counter()-start}' )
+
+#76576500
+#time taken : 2.315941146
