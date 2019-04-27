@@ -27,3 +27,4 @@ if __name__ == '__main__':
 	sumVal=sumofprimes(n)
 	print("Sum of Prime Numbers in range of {} is: {}".format(n,sumVal))
 	print(f"Time Elapsed: {time.perf_counter()-start}") 
+	
