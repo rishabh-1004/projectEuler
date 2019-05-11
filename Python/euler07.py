@@ -12,7 +12,7 @@ def isPrime(primes,number):
 def main():
     counter=0
     primes=dict()
-    for i in range(2,10000000000):
+    for i in range(2,10_000_000_000):
       if (isPrime(primes,i)):
         counter=counter+1
         if (counter==10001):
