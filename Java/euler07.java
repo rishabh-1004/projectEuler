@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 import java.text.*;
 
-class Main{
+class euler07{
 	
 	public static boolean isPrime(long num){
         if(num==1)
@@ -20,12 +20,12 @@ class Main{
 	public static void main(String[] args){
 		
 		long startTime = System.nanoTime();
-
+        int counter=0;
 		for (long i=2;i<=500000000;i++){
             if( isPrime(i) ){
                 counter++;
                 if(counter==10001){
-                    System.out.println("6th Prime Number is : "+i);
+                    System.out.println("10_001th Prime Number is : "+i);
                     break;
                 }
             }
