@@ -10,10 +10,11 @@ class euler02
 		long startTime = System.nanoTime();
 
 		List<Integer> list=new ArrayList<>();
-		int a=0,b=1,c=0,sum=0;
+		int a=0,b=1,c=0,sum=0,counter=0;
 		for(int i=0;i<100;i++)
 		{
 			c=a+b;
+			counter+=1;
 			if(c>4000000)
 				break;
 			a=b;

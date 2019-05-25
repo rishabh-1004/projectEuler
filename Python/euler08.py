@@ -21,4 +21,4 @@ print(sliding_window(arr,1000,13))
 print(f"Soltion took: {time.perf_counter()-start}")
 
 #23514624000
-#Soltion took: 0.0015126619999819013
+#Soltion took: 0.004104
